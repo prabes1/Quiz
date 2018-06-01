@@ -1,0 +1,152 @@
+body {
+    background:#ECEFF1;
+}
+
+/*heading(quiz)*/
+.fhead{ 
+    text-align: center;
+    background-color:#90CAF9 ;
+    width: 100%;
+}
+
+.nthcol{
+
+    background-color:#ECEFF1; 
+}
+
+/*formpart*/
+.frmpart{
+    margin-top: 96px;
+    background-color:white;
+    border: 2px solid #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 323px;
+}
+
+/*name frompart*/
+.lef{
+    margin-top: -6px;
+    margin-left: 30px;
+    float: left;
+}
+
+/*choosing field*/
+.righ{
+    margin-left: 60%;
+    margin-top: 29px;
+    margin-bottom: 25px;
+
+}
+
+/*name input*/
+.ipname{
+    margin-top: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+/*button*/
+.indbtn{
+    background-color: #29B6F6;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    margin-top: 14px;
+    margin-left: -108px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.indbtn:hover{
+    background-color:#81D4FA; 
+}
+.btnnext{
+    background-color: #29B6F6;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    margin-right: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:none;
+    border-radius: 6px;
+    
+}
+.btnprev{
+     background-color: #29B6F6;
+    color: white;
+    padding: 7px 20px 7px 20px;
+   border:none;
+       border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+form{
+    border: 2px solid #f1f1f1;
+
+    width: 81%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 500px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.qnHead{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    background-color:#90CAF9 ;
+    width: 98%;
+    margin-top: 4px;
+    margin-left: 10px;
+    height: 50px;
+}
+.qnSide{
+    margin-left: 22px;
+}
+#showsec{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.button{
+    background-color: #29B6F6;
+
+    border: none;
+    margin-left: 476px;
+    padding: 7px 20px 7px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.lastdis{
+    color:#1B5E20;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+.tab{
+    display: none;
+    font-size: 20px;
+}
+.step {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active {
+   background-color:#90CAF9 ;
+    opacity: 1;
+}
+.step.finish {
+    background-color: #4CAF50;
+}
+#shwnam{
+    margin-left: 900px; 
+    font-size: 20px;
+    color: #3F51B5;
+    font-weight: bold;
+}
